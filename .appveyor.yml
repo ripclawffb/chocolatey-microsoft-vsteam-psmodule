@@ -18,6 +18,8 @@ install:
   - ps: 'Get-CimInstance win32_operatingsystem -Property Caption, OSArchitecture, Version | fl Caption, OSArchitecture, Version'
   - ps: $PSVersionTable
   - git --version
+  - sc config wuauserv start=auto
+  - net start wuauserv
 
 build_script:
   - ps: choco pack
