@@ -23,9 +23,10 @@
       ---</description>
     <summary>PowerShell module with commands for accessing your Azure DevOps Server</summary>
     <releaseNotes>https://github.com/MethodsAndPractices/vsteam/blob/master/CHANGELOG.md</releaseNotes>
-    <copyright>Copyright (c) 2020</copyright>
+    <copyright>Copyright (c) 2018 Donovan Brown</copyright>
     <tags>admin microsoft methods practices MethodsAndPractices vsteam vsts powershell module azure devops server</tags>
     <packageSourceUrl>https://github.com/ripclawffb/chocolatey-microsoft-vsteam-psmodule</packageSourceUrl>
+    <projectSourceUrl>https://github.com/MethodsAndPractices/vsteam</projectSourceUrl>
     <docsUrl>https://github.com/MethodsAndPractices/vsteam/blob/master/docs/readme.md</docsUrl>
     <dependencies>
       <dependency id="dotnet4.5" />
